@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/maindangnhap.css">
+  <link rel="stylesheet" type="text/css" href="./fontawesome-pro-5.15.2/css/all.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./image/logomain.png">
+  <link rel="stylesheet" type="text/css" href="./css/dangnhap.css">
+  <title>Đăng nhập vào f8|f8</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- container -->
+  <div class="container">
+    <a href="./index.php">
+      <img style=" border-radius: 10px;" src="./image/logomain.png"  alt="Logo" class="logo">
+  </a>
+    <h1>Đăng nhập vào F8</h1>
+    <form id="Form-login" method="post">
+            <div class="form-group">
+                <input type="text" pattern="[A-Za-z]" id="acount" class="form-input" placeholder="Tên tài khoản ">
+                <span class="warning warning-acount"></span>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" class="form-input" placeholder="Mật khẩu ">
+                <span class="warning warning-pass"></span>
+            </div>
+
+            <div id="Log-In"></div>
+              <button type="button" id="submit" class="form-submit">Đăng nhập</button>
+            <div class="link">
+                Không có tài khoản ? <a href="./dangky.html">Đăng ký ngay</a>
+            </div>
+    </form>
+  </div>
+</body>
+</html>
+<script src="./js/login.js"></script>

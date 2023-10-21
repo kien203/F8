@@ -1,0 +1,120 @@
+.nav-logo,
+.nav-search,
+.nav-loged{
+	width: 33%;
+}
+.nav-loged{
+	line-height: 72px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+}
+.nav-loged button{
+	border: none;
+	background-color: #fff;
+	font-size: 21px;
+	margin: 0 4px;
+}
+#My-Course,
+#Notification-MyCouser,
+#Avatar{
+	position: relative;
+}
+#Click-Open{
+	cursor: pointer;
+}
+
+
+
+/*My-Course*/
+#My-Course .Board-Infor{
+	display: none;
+	position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 100;
+    width: 400px;
+    top: 73px;
+    right: -7px;
+}
+#My-Course .Header-MyCourse{
+	font-weight: 600;
+    margin-left: 20px;
+}
+#My-Course .Content-MyCourse{
+	text-align: center;
+    color: #ff7920;
+}
+
+
+/*Notification*/
+#Notification-MyCouser .Board-Infor{
+	display: none;
+	position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 100;
+    width: 400px;
+    top: 73px;
+    right: -7px;
+}
+#Notification-MyCouser .Header-Notification{
+	font-weight: 600;
+    margin-left: 20px;
+}
+.Content-Notification .Content{
+	display: flex;
+}
+.Content-Notification .Content i{
+	font-size: 41px;
+    margin: 0 15px;
+    color: #ff7620;
+}
+#Notification-MyCouser .Content-Notification p{
+	width: 232px;
+	line-height: 21px;
+    font-size: 14px;
+    margin-left: 21px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*Avatar-User*/
+#Avatar .Board-Infor{
+	display: none;
+	position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 100;
+    width: 250px;
+    top: 73px;
+    right: -7px;
+}
+#Avatar ul{
+	list-style-type: none;
+	padding: 0 18px;
+}
+#Avatar hr{
+	opacity: 0.3;
+}
+#Avatar p{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+.Infor-User{
+	display: flex;
+}
+.Infor-User i{
+	width: 50px;
+	line-height: 70px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.Infor-User span{
+	font-size: 17px;
+	font-weight: 600;
+}

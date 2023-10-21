@@ -1,0 +1,52 @@
+@media screen and (max-width: 740px){
+	#nav-top .nav-back{
+		text-decoration: none;
+		line-height: 59px;
+		margin-left: -275px;
+		color: #b7b7b7;
+	}
+	#Content-Course{
+		margin-left: 20px;
+	}
+	.Content-Course-Left{
+		width: 680px;
+	}
+	.Content-Course-Left .Header h1{
+		font-size: 22px;
+	}
+	.Content-Course-Left .Header p{
+		font-size: 13px;
+	}
+	#Infor-Content-Course{
+		margin-top: 190px;
+	}
+	#Infor-Content-Course .Header{
+		position: relative;
+	}
+	/*Đăng ký*/
+	.Content-Course-Right{
+		position: relative;
+	}
+	.Review-Course{
+		position: absolute;
+    	margin: 20px 0 0 -495px;
+	}
+	#Course-Item-Video{
+		display: none;
+	}
+	#Footer{
+		margin-top: 0px;
+	}
+
+
+
+
+	/*HTML CSS*/
+	#Infor-Content-Course.Infor-Content-Course{
+		margin-top: -50px;
+		margin-bottom: 50px;
+	}
+	.Receive{
+		margin-top: 290px;
+	}
+}

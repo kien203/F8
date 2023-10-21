@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/maindangnhap.css">
+  <link rel="stylesheet" type="text/css" href="./fontawesome-pro-5.15.2/css/all.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./image/logomain.png">
+  <link rel="stylesheet" type="text/css" href="./css/dangnhap.css">
+  <title>Đăng ký vào f8|f8</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- container -->
+  <div class="container">
+    <a href="./index.php">
+      <img style=" border-radius: 10px;" src="./image/logomain.png"  alt="Logo" class="logo">
+  </a>
+    <h1>Đăng ký tài khoản</h1>
+    <form id="Form-register" action="register.js" method="POST">
+            <div class="form-group">
+                <input type="text" id="username" class="form-input" placeholder="Tên người dùng ">
+                <span class="warning warning-name"></span>
+            </div>
+            <div class="form-group">
+                <input type="text" id="acount" class="form-input" placeholder="Tên tài khoản ">
+                <span class="warning warning-acount"></span>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" class="form-input" placeholder="Mật khẩu ">
+                <span class="warning warning-pass"></span>
+            </div>
+
+            <!-- <div id="Log-In"></div>
+              <input type="submit" id="submit" value="Đăng Ký" class="form-submit">
+            <div class="link">
+                Đã có tài khoản ? <a href="./dangnhap.html">Đăng nhập ngay</a>
+            </div> -->
+
+            <div id="Log-In"></div>
+              <button type="button" id="submit" class="form-submit">Đăng kí</button>
+            <div class="link">
+                Đã có tài khoản ? <a href="./dangnhap.html">Đăng nhập ngay</a>
+            </div>
+    </form>
+  </div>
+</body>
+</html>
+<script src="./js/register.js"></script>

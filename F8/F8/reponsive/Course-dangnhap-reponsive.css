@@ -1,0 +1,45 @@
+.hide-reponsive{
+		display: none;
+	}
+@media screen and (max-width: 740px){
+	#Left{
+		width: 710px;
+		height: 810px;
+		overflow: visible;
+	}
+	#Left .Video{
+		width: 721px;
+	}
+	#Left .Video video{
+		width: 711px;
+		margin-left: 10px;
+	}
+	#Right{
+		display: none;
+		position: absolute;
+	    background-color: #fff;
+	    width: 100%;
+	}
+	#Right .Header{
+		display: flex;
+		justify-content: space-between;
+	}
+	#Right .Header span{
+		line-height: 58px;
+    	margin-right: 20px;
+    	cursor: pointer;
+	}
+	#Footer .Content{
+		margin-left: 0;
+		z-index: 30;
+		background-color: #fff;
+	}
+	#Footer .Left{
+		margin-left: 340px;
+	}
+	.hide-reponsive{
+		display: block;
+		margin:12px 0 0 20px;
+		cursor: pointer;
+	}
+}

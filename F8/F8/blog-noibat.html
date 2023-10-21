@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div class="content-blog-noibat">
+				<div class="BlogDetail_wrapper">
+					<div class="Main_Content">
+						<div class="Content_Left">
+								<div  class="SonDang" style="width: 80%; margin-top: 80px;">
+									<a style="color: #292929; text-decoration: none; " href=""> 
+										<h4>Sơn Đặng</h4> 
+									</a>
+									<p style="color: #757575;	">Stop thinking, start doing!</p>
+									<hr style="background-color: #e6e6e6; border: none; height: 1px; width: 80%; margin-top: 15px;">
+								</div>
+						</div>
+						<div class="Content_Right">
+							<h1 style="font-size: 39px;">[Phần 1] Tạo dự án ReactJS <br> với Webpack và Babel</h1>
+							<div class="BlogDetail_header">
+								<div class="BlogDetail_user">
+									<a href="">
+										<div>
+											<img style="float: left;" class="img_f8" src="./image/image-lotrinh/f8-icon.18cd71cfcfa33566a22b.png" alt="">
+											<img class="vuongmien" src="./image/image-lotrinh/vuongmien.svg" alt="">
+										</div>
+									</a>
+									<div class="BlogDetail_info">
+										<a style="text-decoration: none; color: #292929;" href="">
+											<span class="BlogDetail_name"> Sơn Đặng</span>
+										</a>
+										<img style="width: 15px; " src="./image/image-lotrinh/tich-xanh.png" alt="">
+										<p class="BlogDetail_time">
+											2 năm trước 
+											<span class="BlogDetail_dot">.</span>
+											12 phút đọc 
+										</p>
+									</div>
+								</div>
+								<div class="BlogDetail_actions"> ...</div>
+							</div>
+                            <div class="MardownParser_wrapper">
+                                <p>Chào mọi người 🤗🤗</p> 
+                                <p>
+                                    Hôm nay mình có quay một video trong
+                                    <a class="Chu_Mau_Cam" href="https://fullstack.edu.vn/courses/reactjs">khóa học ReactJS</a>
+                                    là "Tạo dự án <br>
+                                     ReactJS với Webpack và Babel". Mình làm video này với mong muốn chia <br>
+                                      sẻ cho các bạn có thể hình dung ra dự án được tạo bởi "create-react- <br>
+                                       app" được xây dựng như thế nào. Các bạn có thể xem thêm video hướng <br>
+                                        dẫn ở đây nhé.
+                                </p>
+                                <p style="font-style: italic;">
+                                    <em>
+                                        <strong>Click vào hình ảnh này để mở video nhé anh em!</strong>
+                                    </em>
+                                </p>
+                                <p>
+                                   <a href="/external-url?continue=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1EBe-l1E3pM">
+                                    <img style="cursor: pointer" class="size_img" src="./image/image-lotrinh/ReactJS.jpg" alt="">
+                                   </a>
+                                </p>
+                                <p>
+                                    👉👉 Đăng ký khóa ReactJS miễn phí của mình tại: br
+                                    <a class="Chu_Mau_Cam" href="https://fullstack.edu.vn/courses/reactjs">https://fullstack.edu.vn/courses/reactjs</a>
+                                </p>
+                                <hr style="margin: 40px 0; height: 1.5px; background-color: #ddd; border: transparent;">
+                                <h2>
+                                    Bắt đầu
+                                </h2>
+                                <blockquote style=" border-left: 3px solid #f05123; color:#757575; padding: 0 0 2px 20px; margin-top: 25px; " >
+                                    <p>
+                                        Nếu anh em chưa cài đặt NodeJS thì hãy xem video này trước <br> nhé:
+                                        <a class="Chu_Mau_Cam" href="/external-url?continue=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DysjJlvQ3FFc">https://www.youtube.com/watch?v=ysjJlvQ3FFc</a>
+                                    </p>
+                                </blockquote> <br>
+                                <h3>1. Cấu trúc dự án</h3>
+                                <div class="code-toolbar">
+                                    <pre style="background: #272822; border-radius: 0.3em; width: 580px; height: 270px; position: absolute; ">
+                                        <code>
+   <span class="span_trang">react-webpack</span>  <span class="span_xam"># thư mục gốc</span>
+          <span class="span_trang">| src</span>  <span class="span_xam"># thư mục chứa source code chính</span>
+               <span class="span_trang">| components</span>  <span class="span_xam"># thư mục chứa components</span>
+               <span class="span_trang">| index.js</span> <span class="span_xam">  # File khởi tạo, render App vào #root</span>
+          <span class="span_trang">| public</span>
+                <span class="span_trang"> | index.html</span> <span class="span_xam"># HTML page, nơi chứa #root element</span>
+                                        </code>
+                                    </pre>
+                            
+                                </div>
+                                <h3>2. Khởi tạo dự án</h3>
+								<p>
+									Trong hướng dẫn này mình sử dụng VSCode IDE. Các bạn chọn
+									<strong>
+										<em>File</em>
+									 --> 
+									 	<em>Add Folder to Workspace</em>
+										.
+									</strong>
+								</p>
+								<p>
+									<img style="cursor: pointer;" class="size_img" src="./image/image-lotrinh/khoitaoduan.png" alt="">
+								</p>
+								<p>
+									Tiếp theo, bạn tự tạo một thư mục mới tên là 
+									<code class="name_code">react-webpack</code>
+									sau đó <br>
+									 chọn thư mục đó và click vào
+									 <em>
+										<strong>Add</strong>
+									 </em>
+								</p>
+								<p>
+									<img style="cursor: pointer;"  class="size_img" src="./image/image-lotrinh/khoitao2.png" alt="">
+								</p>
+								<h3>3. Mở cửa sổ Terminal</h3>
+								<p>
+									<img style="cursor: pointer;" class="size_img" src="./image/image-lotrinh/khoitao3.png" alt="">
+								</p>
+								<p>Sau đó chạy dòng lệnh sau để khởi tạo dự án với Node:</p>
+								<div style="height: 55px;" class="code-toolbar">
+									<pre style="background-color: #272822; height: 75px; ">
+											<code style="color: #e6e6e6;">
+   <span  style="color: #e6db74; ">spn</span> init
+											</code>
+									</pre>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>

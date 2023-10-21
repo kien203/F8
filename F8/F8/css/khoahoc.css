@@ -1,0 +1,55 @@
+#nav-top .nav-logo .nav-back{
+	color: #9da4aa;
+	text-decoration: none;
+	line-height: 42px;
+	margin-left: 12px;
+	font-size: 13px;
+}
+/* START HEADER TRANG*/
+#Header-Khoahoc{
+	margin-top: 40px;
+    margin-left: 170px;
+}
+#Header-Khoahoc .Slogan-Khoahoc{
+	font-size: 15px;
+    margin-top: 15px;
+}
+/*END HEADER TRANG*/
+/*START SUGGESTION LỘ TRÌNH*/
+#Suggestion{
+	margin-left: 170px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#Suggestion .Header-Sug{
+	width: 400px;
+	margin-top: 100px;
+}
+#Suggestion .Header-Sug .Title-Sug{
+	font-size: 27px;
+}
+#Suggestion .Header-Sug p{
+	font-size: 14px;
+    margin-top: 20px;
+}
+#Suggestion .Header-Sug a{
+	text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 38px;
+    border: 1px solid black;
+    border-radius: 27px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+#Suggestion .Header-Sug a:hover{
+	background-color: black;
+	color: #fff;
+}
+#Suggestion .Img-Khoahoc img{
+	width: 420px;
+	margin-right: 50px;
+}

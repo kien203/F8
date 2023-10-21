@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px){
+	#nav-top{
+		height: 60px;
+	}
+	#nav-top .hide-reponsive{
+    	display: block;
+    	margin: 19px 30px 0 30px;
+    	font-size: 20px;
+    }
+    .nav-logo{
+    	display: none;
+    }
+    .notlogin{
+        display: block;
+    }
+    .logged{
+        display: block;
+    }
+    .nav-search{
+    	width: 100%;
+    }
+    .nav-search .search{
+    	margin-top: 9px;
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+	.nav-search .search input{
+    	width: 100%;
+    }
+}

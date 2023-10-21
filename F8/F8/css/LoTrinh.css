@@ -1,0 +1,91 @@
+
+
+/* .App_With_Side_bar_Content{
+
+} */
+/*Content-CuDa */
+.App_With_Side_bar_Content{
+	margin-top: 80px;
+}
+.content_1{
+	width: 1000px;
+	height: 200px;
+}
+.content_2{
+
+height: 400px;
+margin-left: 155px;
+
+}
+.border_1{
+border-radius: 16px ;
+border: 2px solid#e8e8e8;
+display: flex;
+padding: 20px ;
+line-height: 1.6;
+margin-top: 85px;
+
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.border_2 {
+border: 2px solid #e8e8e8;
+border-radius: 16px;
+padding: 20px ;
+line-height: 1.6;
+display: flex;
+margin-top: 85px;
+margin-left: 30px;
+}
+.img_1{
+	border-radius: 50%;
+	border: solid 4px red
+	
+}
+.content_3{
+width: 1028px;
+height: 423px;
+margin-left: 175px;
+}
+.CongDongF8{
+	width: 500px;
+	height: 247px;
+	margin-top: 150px;
+	line-height: 1.5;
+	
+}
+.tham_gia_nhom{
+	border:2px solid #292929;
+	border-radius: 999px;
+	color: #292929;
+	display: inline-block;
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-top: 8px;
+	padding: 10px 16px;
+	text-align: center;
+	transition: .2s ease;
+	margin-top: 20px;
+}
+.tham_gia_nhom:hover{
+	background: black;
+	color: white;
+}
+h2{
+	font-size: 1.7rem;
+	font-weight: 800;
+	line-height: 1.6;
+	
+}
+.chi_tiet{
+	background-color: #f05123;
+	color: white;
+	border: 2px solid;
+	border-radius: 99px;
+	font-size: 1rem;
+	display: block;
+}

@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image:url('../image/image-blog/355555453_2476416329179301_7797485062972064619_n.png');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 637px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+} 
+
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: #f00;
+}
+
+.account-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.account-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-login {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+.social-login a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;  
+}
+i{
+    float: left;
+}
+.registration-form {
+    display: block;
+}
+ .info-table {
+        display: block;
+      }
+
+/* star bẳng đăng nhâp  */
+.bangthem{
+       max-width: 898px;
+    margin: 0px auto;
+    padding: 35px;
+    background-color: #fff;
+    /* position: absolute; */
+    top: 204px;
+    right: 555px;
+}
+/* star black-link */
+    .back-link {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:before {
+      content: "\2190 ";
+    }
+/* end black-link */
+#quaylai {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#quaylai a.back-link {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#quaylai table {
+  width: 100%;
+}
+
+#quaylai td {
+  padding: 20px;
+}
+
+#quaylai .table-heading {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#quaylai input[type="text"],
+#quaylai button[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#quaylai button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#quaylai button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* end bẳng đăng nhập  */
+/* bang đăng ký */
+.container2{
+  max-width: 637px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.From_Login{
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;  
+  -ms-user-select: none;
+  user-select: none;
+}
+.From_header{
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+}
+/* .box{
+  width: 123px;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.form-header {
+  font-weight: bold;
+}
+
+.form-row {
+  background: rgba(22, 24, 35, 0.06);
+  border: 1px solid rgba(22, 24, 35, 0.06);
+  border-radius: 44px;
+  overflow: hidden;
+}
+
+.form-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  display: block;
+  font-size: 12px;
+  outline: none;
+  padding: 10px;
+}
+
+.send-button {
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+.send-button span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.Form-thre{
+  background-image: linear-gradient(70.06deg, #2cccff -5%, #22dfbf 106%);
+  background-color: #1dbfaf;
+  border: 0;
+  color: white;
+  font-weight: 600;
+}
+/* bang so dien thoai */
+.country-code {
+  cursor: pointer;
+}
+
+.phone-list {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 999;
+}
+
+.phone-list li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.phone-list li:hover {
+  background-color: #f0f0f0;
+}
+
+/* end bang so dien thoai */
+/* end bẳng đăng ký */

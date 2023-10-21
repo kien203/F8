@@ -1,0 +1,19 @@
+@media screen and (max-width: 740px) {
+	#Header-Khoahoc{
+	margin-left: 20px;
+	}
+	#Suggestion{
+		margin-left: 20px;
+	}
+	#Suggestion .Header-Sug{
+		width: 700px;
+		text-align: center;
+		margin-top: -430px;
+	}
+	#Suggestion .Header-Sug a{
+		width: 680px;
+	}
+	#Suggestion .Img-Khoahoc{
+		display: none;
+	}
+}

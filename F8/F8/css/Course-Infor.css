@@ -1,0 +1,263 @@
+/*Start CONTENT-COURSE*/
+#Content-Course{
+/*	width: 1196px;*/
+	margin-left: 150px;
+    margin-top: 80px;
+	display: flex;
+}
+	/*Header*/
+/*.Content-Course-Left .Header h1{
+	color: #9da4aa;
+}*/
+.Content-Course-Left{
+	margin-top: 45px;
+	width: 770px;
+	/*float: left;*/
+}
+.Content-Course-Left .Header p{
+	font-size: 14px;
+	margin: 20px 0 40px 0;
+}
+	/*Receive*/
+/*.Content-Course-Left .Receive h3{
+	color: #9da4aa;
+}*/
+.Content-Course-Left .Receive ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.Content-Course-Left .Receive li{
+	width: 300px;
+	float: left;
+	font-size: 14px;
+	padding: 0px 24px 12px 24px;
+	position: relative;
+}
+.Content-Course-Left .Receive li .fas{
+	position: absolute;
+	left: 0;
+    top: 0;
+    color: #ff681c;
+}
+/*end CONTENT-COURSE*/
+/*start INFOR CONTENT Left*/
+#Infor-Content-Course{
+	/*color: #9da4aa;*/
+	margin-top: 40px;
+}
+#Infor-Content-Course .Header{
+	position: sticky;
+    top: 73px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 20px 0px;
+}
+#Infor-Content-Course .Time-List{
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+#Infor-Content-Course .Time-List ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+}
+#Infor-Content-Course .Time-List li span{
+	font-weight: 700;
+}
+#Infor-Content-Course .Time-List .Button-Extend{
+	color: #ff681c;
+	font-weight: 700;
+	display: flex;
+	cursor: pointer;
+}
+#Infor-Content-Course .Time-List .Button-Extend #zoomout{
+	display: none;
+}
+#Infor-Content-Course .Module{
+	position: sticky;
+}
+#Infor-Content-Course .Module-Course{
+	margin-top: 20px;
+	cursor: pointer;
+}
+#Infor-Content-Course .Module-Course .Module-Title{
+	display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 15px 15px 15px 55px;
+    background-color: #f5f5f5;
+    border: 1px solid #e8ebed;
+    border-radius: 10px;
+}
+.Module .Module-Course .Module-Title .fas{
+	position: absolute;
+    top: 15px;
+    left: 30px;
+    color: #ff681c;
+}
+#Infor-Content-Course .Module-Content div{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+    padding: 15px 15px 15px 65px;
+    font-size: 14px;
+}
+#Infor-Content-Course .Module-Content{
+	display: none;
+}
+#Infor-Content-Course .Module-Content .fa-play{
+	position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 5px;
+    border: 1px solid #ff681c;
+    border-radius: 50%;
+    background-color: #ff681c;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    opacity: 0.5;
+}
+#Infor-Content-Course .Module-Content .question{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 9px;
+    border: 1px solid #a3a3a3;
+    border-radius: 50%;
+    background-color: #a3a3a3;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    opacity: 0.5;
+}
+#Infor-Content-Course .Module-Content .file-text{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 15px;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    opacity: 0.5;
+}
+#Infor-Content-Course .Module-Content .pen{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 15px;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    opacity: 0.5;
+}
+/*end CONTENT LEFT*/
+/*start CONTENT RIGHT*/
+.Content-Course-Right{
+	position: sticky;
+    margin-left: 30px;
+    float: left;
+    top: 100px;
+}
+.Content-Course-Right .Course-Item img{
+	width: 330px;
+	border-radius: 10px;
+	filter: brightness(50%);
+}
+.Content-Course-Right .Video-Play{
+    position: relative;
+}
+.Content-Course-Right .Video-Play .fas{
+    position: absolute;
+    left: 0px;
+    right: 10px;
+    bottom: 63px;
+    /* top: 0; */
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 65px;
+    text-align: center;
+    color: #fff;
+}
+.Content-Course-Right .Video-Play p{
+	position: absolute;
+    bottom: 15px;
+    left: 70px;
+    color: #fff;
+    font-size: 17px;
+}
+.Content-Course-Right .Review-Course{
+	text-align: center;
+}
+.Content-Course-Right .Review-Course h1{
+	margin-top: 20px;
+    color: #ff641b;
+    font-weight: 100;
+}
+.Content-Course-Right .Review-Course a{
+	display: inline-block;
+    text-decoration: none;
+    background-color: #ff711e;
+    color: #fff;
+    width: 170px;
+    padding: 13px 0 10px 0;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.Review-Course .Review ul{
+	list-style-type: none;
+    display: inline-block;
+}
+.Review-Course .Review li{
+	display: flex;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.Review-Course .Review li span{
+	font-weight: 700;
+}
+
+/*start show hide Video*/
+#Bg-Container-Video{
+    position: fixed;
+    z-index: 20;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: #4b4b49;
+    width: 100%;
+    height: 100%;
+}
+#Video-Youtube{
+        position: fixed;
+        z-index: 30;
+        top: 40px;
+        left: 230px;
+        display: none;
+    }
+    #Video-Youtube .Video-Bg{
+        background-color: #fff;
+        padding: 27px 30px 30px 30px;
+        border-radius: 25px;
+    }
+    #Video-Youtube .Video-Bg .gioithieu{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    #Video-Youtube .Video-Bg h3{
+        margin-bottom: 20px;
+    }
+/*end show hide Video*/

@@ -1,0 +1,141 @@
+@media screen and (max-width: 740px){
+	#nav ul li a{
+		display: none;
+	}
+	/*Header*/
+	#Header h1{
+		font-size: 37px;
+    	width: 100%;
+	}
+	#Header h3{
+		font-size: 15px;
+		width: 95%;
+	}
+	#Header .Path{
+		display: grid;
+		width: 80%;
+	}
+	#Header .Path .hover{
+		width: 100%;
+		margin-top: 10px;
+	}
+	/*End Header*/
+	/*Figma*/
+	#Figma{
+		display: grid;
+	}
+	#Figma .right{
+		margin-top: 60px;
+	}
+	#Figma .right img{
+		width: 505px;
+    	height: 300px;
+	}
+	/*End Figma*/
+	/*Content*/
+	#Content-Course .Table .List-Content{
+		display: grid;
+	}
+	#Content-Course .Table .List-Content ul{
+		margin-top: 40px;
+	}
+	/*End Content*/
+	/*Features*/
+	#Features .left .Table{
+		border: 0;
+	    background-color: #0d1018;
+	    width: 660px;
+	    margin-left: 30px;
+	    margin-top: 350px;
+	    padding: 0;
+	}
+	#Features .right{
+		position: absolute;
+		padding-left: 20px;
+	}
+	#Features .right h1{
+		font-size: 27px;
+	}
+	#Features .right h3{
+		font-size: 15px;
+	}
+	/*End Features*/
+	/*Question*/
+	#Question h1{
+		font-size: 27px;
+	}
+	#Question h3{
+		font-size: 15px;
+	}
+	#Question .Content{
+		display: grid;
+	}
+	#Question .Content .Item{
+		width: 100%;
+	}
+	/*End Question*/
+	/*Start-Free*/
+	#Start-Free h1{
+		font-size: 37px;
+    	width: 100%;
+	}
+	#Start-Free h3{
+		font-size: 15px;
+		width: 95%;
+	}
+	#Start-Free .Path{
+		display: grid;
+		width: 80%;
+	}
+	#Start-Free .Path .hover{
+		width: 100%;
+		margin-top: 10px;
+	}
+	/*End Start-Free*/
+	/*The End*/
+	#The-End .Table{
+		padding: 50px 30px;
+	}
+	#The-End .Table h1{
+		font-size: 31px;
+	}
+	#The-End .Table h3{
+		font-size: 16px;
+	}
+	/*End The-End*/
+	/*Footer*/
+	#Footer{
+		margin-top: -100px;
+		height: 100%;
+	}
+	.Footer-Wrapper{
+		width: 700px;
+		margin-left: 0px;
+		margin-top: 20px;
+		padding: 0;
+		display: grid;
+		height: 100%;
+	}
+	.Footer-Column.s1,
+	.Footer-Column.s2,
+	.Footer-Column.s3,
+	.Footer-Column.s4,
+	.Footer-Column.s5{
+		width: 710px;
+	}
+	.Footer-Column{
+		float: none;
+	}
+	.Footer-Bottom{
+		display: grid;
+		width: 700px;
+		height: auto;
+		justify-content: center;
+		text-align: center;
+		margin-left: 0;
+		padding: 0;
+
+	}
+
+
+}

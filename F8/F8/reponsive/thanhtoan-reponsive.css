@@ -1,0 +1,58 @@
+@media only screen and (max-width: 740px) {
+  body{
+    background-size: 106%;
+  }
+  .main {
+    flex-direction: column;
+    
+  }
+
+  .main1 {
+    margin-top: -52px;
+    margin-left: 0px;
+  }
+  .conten{
+    margin-right: 30px;
+  }
+  .table-information{
+    margin-left: 132px;
+    width: 493px;
+  }
+  .table-information-2{
+    width: 479px;
+  }
+  .board-course{
+    padding: auto;
+    font-size: 0px;
+  }
+  .board-course-header{
+    margin-top: -48px;
+    height: 50px;
+  }
+  .board-course-conten-2{
+    width: 240px;
+    margin-left: 50px;
+  }
+  .region-contact-top-logo{
+    margin-left: -146px;
+  }
+  .conten_swith{
+    padding: 0px;
+    display: grid;
+  }
+  .region-contact-top-line{
+    display: none;
+  }
+  .region-contact{
+    padding-left: 50px;
+  }
+  .region-contact-top{
+    margin-left: 120px;
+  }
+  .table-information-boder{
+    margin-left: -17px;
+  }
+  #qrTable{
+    margin-left: 100px;
+  }
+}

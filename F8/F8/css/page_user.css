@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+	position: sticky;
+	top: 10px;
+	z-index: 9999;
+}
+#logo{
+	display: flex;
+}
+#logo a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+#logo img{
+	width: 38px;
+	border-radius: 5px;
+}
+#logo .back{
+	font-size: 12px;
+	line-height: 38px;
+	margin-left: 10px;
+}
+.user .btn-userLogged{
+	font-size: 30px;
+	cursor: pointer;
+}
+.user .menu-userLogged{
+    display: none;
+    position: absolute;
+    width: 200px;
+    line-height: 30px;
+    right: 1px;
+    top: 45px;
+    right: 25px;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 15px;
+}
+.user .menu-userLogged ul{
+	list-style: none;
+}
+.user .menu-userLogged li{
+	margin-bottom: 10px;
+}
+.user a{
+	text-decoration: none;
+	color: black;
+}
+.user .menu-userLogged #logout{
+	cursor: pointer;
+}
+
+
+
+
+.container{
+	max-width: 1100px;
+	margin: auto;
+}
+.profile_banner{
+	background-image: url(../image/bg_page_user.png);
+	position: relative;
+    top: -42px;
+    width: 100%;
+    padding-top: 28%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 26px 26px;
+}
+.profile_user{
+	position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.profile_user img{
+	border-radius: 50%;
+    width: 172px;
+    height: 172px;
+}
+.profile_user span{
+	font-size: 27px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+.profile_course{
+	margin-top: 40px;
+	display: flex;
+}
+.infor_user{
+	width: 49%;
+}
+.infor_user h2{
+	margin: 20px 0;
+}
+.infor_username{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin-top: 15px;
+}
+.change_username{
+	border: 1px solid;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.btn_password{
+	border: 1px solid;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.infor_course{
+	width: 49%;
+	/*float: right;*/
+}
+.infor_course h4{
+	margin-bottom: 20px;
+}
+.infor_course .item_course{
+	display: flex;
+	width: 90%;
+	height: 128px;
+	margin-bottom: 40px;
+}
+.infor_course .item_course img{
+	width: 228px;
+	border-radius: 10px;
+}
+.infor_course .item_course .info{
+	margin-left:25px;
+	line-height: 20px;
+}
+.infor_course .item_course .info p{
+	font-size: 14px;
+	margin-top: 10px;
+	word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.bg_web{
+	position: fixed;
+    z-index: 1;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    background-color: #4b4b49;
+    width: 100%;
+    height: 100%;
+}
+.table_change_username{
+	display: block;
+    position: absolute;
+    z-index: 9;
+    background: #fff;
+    width: 300px;
+    height: 135px;
+    padding: 25px 0px;
+}
+.username_new{
+	display: flex;
+}
+.table_change_username{
+	display: block;
+    position: absolute;
+    z-index: 9;
+    background: #fff;
+    width: 300px;
+    height: 135px;
+    padding: 25px 0px;
+}
+.table_change_password form{
+	width: 370px;
+}
+.table_change_password .password_now,
+.table_change_password .password_new{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.table_change_password .send{
+	margin-left: 197px;
+	margin-top:15px;
+}
